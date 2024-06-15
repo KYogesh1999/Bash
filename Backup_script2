@@ -1,0 +1,13 @@
+#! /bin/bash
+
+#Author: Yogesh k
+#Created date:
+#Modified date:
+
+#Description:
+#Usage:
+
+tar -cvf ~/Scripting/Scripts/my_backup_"$(date +%d-%m-%Y_%H-%M-%S)".tar ~/* 2>/dev/null
+
+exit 0
+
